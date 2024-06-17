@@ -1,10 +1,9 @@
 def factorial(n):
     if n < 0:
-        return "Factorial is not defined for negative numbers"
+        return "factorial is not defiend negative numbeer"
     elif n == 0:
         return 1
     else:
-        return n * factorial(n - 1)
-
-number = int(input("Enter a number: "))
-print("Factorial of", number, "is:", factorial(number))
+        return  n * factorial(n-1)
+number=int(input("enter the number:"))
+print("factorial of",number,"is:",factorial(number))
